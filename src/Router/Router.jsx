@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router";
-import HomePage from '../pages/HomePage'
+import HomePage from '../Pages/HomePage'
 import MainLayout from "../Layout/MainLayout";
 import Product from "../Pages/Product";
 import About from "../Pages/About";
