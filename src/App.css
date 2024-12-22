@@ -1,0 +1,92 @@
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Specific styles for the Hero Section */
+.hero-section {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+}
+
+.hero-heading {
+  font-size: 4rem; /* For large heading */
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Shadow to make the text pop */
+}
+
+.hero-subheading {
+  font-size: 1.25rem; /* Subheading font size */
+  margin-top: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.85); /* Slightly transparent white text */
+}
+
+/* Button Style */
+.button-primary {
+  background-color: #fbbf24; /* Yellow from Tailwind */
+  color: #333; /* Text color */
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.button-primary:hover {
+  background-color: #f59e0b; /* Darker yellow */
+}
+
+/* Grid Layout for Products Section */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-details {
+  padding: 1rem;
+}
+
+.product-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.product-price {
+  font-size: 1rem;
+  color: #fbbf24;
+  font-weight: 500;
+}
+
+.product-btn {
+  background-color: #fbbf24;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.product-btn:hover {
+  background-color: #f59e0b; /* Darker yellow */
+}
